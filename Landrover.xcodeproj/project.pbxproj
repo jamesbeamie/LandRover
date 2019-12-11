@@ -16,6 +16,8 @@
 		846D863E23A022A90048502E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846D863C23A022A90048502E /* LaunchScreen.storyboard */; };
 		846D864923A022A90048502E /* LandroverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D864823A022A90048502E /* LandroverTests.swift */; };
 		846D865423A022A90048502E /* LandroverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D865323A022A90048502E /* LandroverUITests.swift */; };
+		846D866223A026690048502E /* roverdb.json in Resources */ = {isa = PBXBuildFile; fileRef = 846D866123A026690048502E /* roverdb.json */; };
+		846D866423A027CE0048502E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D866323A027CE0048502E /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		846D864F23A022A90048502E /* LandroverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandroverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846D865323A022A90048502E /* LandroverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandroverUITests.swift; sourceTree = "<group>"; };
 		846D865523A022A90048502E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846D866123A026690048502E /* roverdb.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roverdb.json; sourceTree = "<group>"; };
+		846D866323A027CE0048502E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +108,11 @@
 				846D862E23A022A50048502E /* AppDelegate.swift */,
 				846D863023A022A50048502E /* SceneDelegate.swift */,
 				846D863523A022A50048502E /* ContentView.swift */,
+				846D866323A027CE0048502E /* Data.swift */,
 				846D863723A022A90048502E /* Assets.xcassets */,
 				846D863C23A022A90048502E /* LaunchScreen.storyboard */,
 				846D863F23A022A90048502E /* Info.plist */,
+				846D866123A026690048502E /* roverdb.json */,
 				846D863223A022A50048502E /* Landrover.xcdatamodeld */,
 				846D863923A022A90048502E /* Preview Content */,
 			);
@@ -243,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846D866223A026690048502E /* roverdb.json in Resources */,
 				846D863E23A022A90048502E /* LaunchScreen.storyboard in Resources */,
 				846D863B23A022A90048502E /* Preview Assets.xcassets in Resources */,
 				846D863823A022A90048502E /* Assets.xcassets in Resources */,
@@ -271,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				846D862F23A022A50048502E /* AppDelegate.swift in Sources */,
+				846D866423A027CE0048502E /* Data.swift in Sources */,
 				846D863123A022A50048502E /* SceneDelegate.swift in Sources */,
 				846D863623A022A50048502E /* ContentView.swift in Sources */,
 				846D863423A022A50048502E /* Landrover.xcdatamodeld in Sources */,
