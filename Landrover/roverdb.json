@@ -2,17 +2,20 @@
     "id":1201,
     "name":"Range Rover",
     "imageName": "rover",
-    "desciption": "Sport"
+    "description": "Sport"
+    "condition": "new"
 },
 {
     "id":1202,
     "name":"Defender",
     "imageName": "def",
-    "desciption": "Sport"
+    "description": "Sport"
+    "condition": "new"
 },
 {
     "id":1203,
     "name":"Discovery",
     "imageName": "disc",
-    "desciption": "disco"
+    "description": "disco"
+    "condition": "new"
 },]
