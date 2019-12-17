@@ -18,7 +18,8 @@
 		846D865423A022A90048502E /* LandroverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D865323A022A90048502E /* LandroverUITests.swift */; };
 		846D866223A026690048502E /* roverdb.json in Resources */ = {isa = PBXBuildFile; fileRef = 846D866123A026690048502E /* roverdb.json */; };
 		846D866423A027CE0048502E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D866323A027CE0048502E /* Data.swift */; };
-		84D79B1823A965C7001AD407 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D79B1723A965C7001AD407 /* Drink.swift */; };
+		84D79B1823A965C7001AD407 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D79B1723A965C7001AD407 /* Rover.swift */; };
+		84D79B1A23A96ACD001AD407 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D79B1923A96ACD001AD407 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +57,8 @@
 		846D865523A022A90048502E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		846D866123A026690048502E /* roverdb.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roverdb.json; sourceTree = "<group>"; };
 		846D866323A027CE0048502E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		84D79B1723A965C7001AD407 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		84D79B1723A965C7001AD407 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
+		84D79B1923A96ACD001AD407 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +112,9 @@
 				846D862E23A022A50048502E /* AppDelegate.swift */,
 				846D863023A022A50048502E /* SceneDelegate.swift */,
 				846D863523A022A50048502E /* ContentView.swift */,
+				84D79B1923A96ACD001AD407 /* Car.swift */,
 				846D866323A027CE0048502E /* Data.swift */,
-				84D79B1723A965C7001AD407 /* Drink.swift */,
+				84D79B1723A965C7001AD407 /* Rover.swift */,
 				846D863723A022A90048502E /* Assets.xcassets */,
 				846D863C23A022A90048502E /* LaunchScreen.storyboard */,
 				846D863F23A022A90048502E /* Info.plist */,
@@ -284,7 +287,8 @@
 				846D866423A027CE0048502E /* Data.swift in Sources */,
 				846D863123A022A50048502E /* SceneDelegate.swift in Sources */,
 				846D863623A022A50048502E /* ContentView.swift in Sources */,
-				84D79B1823A965C7001AD407 /* Drink.swift in Sources */,
+				84D79B1823A965C7001AD407 /* Rover.swift in Sources */,
+				84D79B1A23A96ACD001AD407 /* Car.swift in Sources */,
 				846D863423A022A50048502E /* Landrover.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

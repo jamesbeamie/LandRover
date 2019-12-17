@@ -7,9 +7,13 @@
 //
 
 import Foundation
+
+let roverData:[Rover] = load("roverdb.json")
+
+
 func load<T:Decodable>(_ filename: String, as type: T.Type = T.self)-> T{
     let data: Data
-    guard let file = bundle.main.url(forresource: filename, withExtension: nil)
+    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
         else{
             fatalError("Couldn't find \(filename) in Main bundle")
     }
