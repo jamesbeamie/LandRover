@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Drink: Hashable, Codable, Identifiable {
+struct Rover: Hashable, Codable, Identifiable {
     var id:Int
     var name: String
     var imageName: String
